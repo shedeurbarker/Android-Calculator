@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyCalc" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+
+        <!-- Defining that new color in ColorPrimaryDark -->
+        <item name="colorPrimaryDark">@color/colorOfStatusBar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.MyCalc" parent="Base.Theme.MyCalc">
+        <item name="android:textAllCaps">false</item>
+        <item name="colorPrimaryVariant">@color/colorOfStatusBar</item>
+        <item name="android:statusBarColor">@color/colorOfStatusBar</item>
+    </style>
+</resources>
